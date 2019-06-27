@@ -1,0 +1,122 @@
+body {
+  background: white;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+nav {
+  background: rgb(138, 215, 245);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22%;
+  height: 100%;
+  border: solid;
+  border-color: black;
+  border-width: 10px;
+  z-index: 1;
+}
+
+#navbar header {
+  height: 12%;
+}
+
+#navbar ul {
+  margin-top: 0;
+  height: 89%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: black;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  margin-top: 3vh;
+}
+#navbar a:hover {
+  color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+header {
+  font-family: Bangers;
+  text-align: center;
+  color: rgb(38, 181, 238);
+  font-size: 4vw;
+}
+
+#navbar header {
+  font-family: Bangers;
+  color: black;
+  font-size: 2.1vw;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 2.4vw;
+  padding-right: 3.3vw;
+}
+
+main {
+  background: white;
+  opacity: 0.8;
+  width: 78%;
+  height: 100%;
+}
+
+.main-section {
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 10vh;
+}
+
+.main-section ul {
+  text-align: left;
+}
+
+.main-section p {
+  text-align: justify;
+  width: 100%;
+  font-family: monospace;
+}
+code {
+  display: block;
+  background: rgb(240, 240, 240);
+  width: 75%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+  }
+  main {
+    position: relative;
+    top: 30vh;
+    width: 100%;
+  }
+  #navbar ul {
+    margin-top: 0;
+    height: 10vh;
+    padding: 0;
+  }
+}
