@@ -3,6 +3,7 @@ body {
   display: flex;
   height: 100%;
   justify-content: flex-end;
+  scroll-behavior: smooth;
 }
 
 html {
