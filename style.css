@@ -5,6 +5,10 @@ body {
   justify-content: flex-end;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background: rgb(138, 215, 245);
   position: fixed;
